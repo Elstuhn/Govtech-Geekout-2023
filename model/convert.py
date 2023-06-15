@@ -1,6 +1,6 @@
 import tensorflowjs as tfjs
 
-# Define the input and output paths
+# Define the input and output paths ss defined in the previous step
 input_path = "pretrained_model.pb"
 output_path = 'tfjs_output'
 
