@@ -15,12 +15,12 @@
         <img src="{{url_for('static', filename="hubLogo.png")}}"/>
       </a>
       <div class="nav-buttons-container">
-        <button class="faq-button">FAQ</button>
+        <dialog class="faq-button">FAQ</button>
         <button class="nearest-button">Nearest Center</button>
         <button id="login-button">Login</button>
       </div>
     </div>
-
+    <dialog id="faq-modal" open>this if the FAQ</dialog>
     <div style="padding-left: 650px; padding-top: 20px">
       <img
         height="150"
@@ -59,5 +59,6 @@
         document.getElementById("frame").src = url;
       }
     </script>
+    <script src="{{url_for('static', filename='script.js')}}"></script>
   </body>
 </html>
