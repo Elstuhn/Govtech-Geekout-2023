@@ -2,6 +2,8 @@
 
 import tensorflow as tf
 import cv2
+import numpy as np
+import time
 import multiprocessing as mp
 from utils import load_graph, detect_hands, predict
 from utils import ORANGE, RED, GREEN
