@@ -21,7 +21,7 @@ rec=0
 
 app = Flask(__name__ ,template_folder='./templates')
 
-camera = cv2.VideoCapture(0) 
+
 
 def record(out):
     global rec_frame
@@ -169,5 +169,5 @@ def video_feed():
 
 
 if __name__ == '__main__':
-    main()
+    
     app.run(debug=True)
