@@ -7,11 +7,18 @@
     <title>PhysioHub</title>
     <link rel="stylesheet" href={{ url_for('static', filename='styles.css') }}
     />
-
   </head>
   <body>
     <div class="navbar">
-      <button class="nearest-button">Nearest Center</button>
+      <a class="logo">
+        <span>Rehab</span>
+        <img src="{{url_for('static', filename="hubLogo.png")}}"/>
+      </a>
+      <div>
+        <button>Nearest Center</button>
+        <button>FAQ</button>
+        <button class="nearest-button">Login</button>
+      </div>
     </div>
 
     <div style="padding-left: 650px; padding-top: 20px">
