@@ -1,8 +1,9 @@
-alert(1);
 
 window.addEventListener('DOMContentLoaded', () => {
-    const faqModal = document.querySelector(".faq-button")
-    faqModal.addEventListener("click", () => {
-        console.log(clicked)
+    const faqButton = document.querySelector(".faq-button")
+    const faqModal = document.querySelector("#faq-modal")
+    faqButton.addEventListener("click", () => {
+        console.log("clicked");
+        faqModal.toggleAttribute('open');
     })
 })

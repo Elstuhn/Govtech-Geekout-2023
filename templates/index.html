@@ -15,12 +15,79 @@
         <img src="{{url_for('static', filename="hubLogo.png")}}"/>
       </a>
       <div class="nav-buttons-container">
-        <dialog class="faq-button">FAQ</button>
+        <button class="faq-button">FAQ</button>
         <button class="nearest-button">Nearest Center</button>
         <button id="login-button">Login</button>
       </div>
     </div>
-    <dialog id="faq-modal" open>this if the FAQ</dialog>
+    <dialog id="faq-modal" open>
+      <h2>FAQ</h2>
+      <strong><p>Safety Precautions:</p></strong>
+      <p>Q: Is the app safe to use for hand therapy?</p>
+      <p>
+        A: Yes, the app is designed with safety in mind. However, please ensure
+        that you follow some basic precautions while using the app. Avoid
+        placing excessive strain on your hand or fingers during gameplay. If you
+        experience any pain, discomfort, or unusual sensations, stop using the
+        app immediately and consult a healthcare professional.
+      </p>
+      <strong><p>Privacy Concerns:</p></strong>
+      
+      <p>Q: What data does the app collect, and how is it used?</p>
+      <p>
+        A: The app utilizes computer vision technology to track hand movements,
+        but it does not collect or store any personally identifiable
+        information. The camera feed is processed locally on your device and is
+        not transmitted to external servers. Your privacy and data security are
+        our top priorities.
+      </p>
+      <strong><p>Warnings:</p></strong>
+      
+      <p>Q: Are there any warnings associated with using the app?</p>
+      <p>A: Yes, please keep the following warnings in mind:</p>
+      <p>
+        Use the app in a well-lit environment to ensure optimal tracking
+        accuracy. Make sure you have a secure grip on your device to prevent
+        accidental drops or damage. Do not use the app while engaging in
+        activities that require your full attention, such as driving or
+        operating machinery. Other Forms of Therapy Available:
+      </p>
+
+      <p>Q: Are there alternative forms of hand therapy available?</p>
+      <p>
+        A: Yes, there are various other forms of hand therapy that you can
+        explore. These may include traditional exercises, physical therapy
+        sessions, occupational therapy, or specialized hand therapy devices.
+        It's recommended to consult a healthcare professional to determine the
+        most suitable options for your specific needs.
+      </p>
+      <strong><p>Recommended Use Cases:</p></strong>
+      
+      <p>Q: Who can benefit from using the app?</p>
+      <p>
+        A: The app is designed to be beneficial for individuals undergoing hand
+        therapy, whether it's due to injury, surgery, or conditions affecting
+        hand mobility. It can also be used for general hand exercise and
+        strengthening. However, we advise consulting a healthcare professional
+        to assess whether the app is suitable for your specific condition.
+      </p>
+      <strong><p>Disclaimer:</p></strong>
+      
+      <p>
+        A: The app is intended to be a supplementary tool for hand therapy and
+        is not a substitute for professional medical advice or treatment. Always
+        consult with a qualified healthcare professional before starting any new
+        therapy regimen or if you have any concerns about your hand health. The
+        app developers and creators are not liable for any injuries, damages, or
+        adverse effects resulting from the use of the app.
+      </p>
+      <p>
+        Please note that this generated FAQ section provides general information
+        and it's important to tailor it to your specific app and circumstances.
+        It's always a good idea to review and refine the content to align with
+        your app's features and requirements.
+      </p>
+    </dialog>
     <div style="padding-left: 650px; padding-top: 20px">
       <img
         height="150"
@@ -50,8 +117,14 @@
         width="600"
         height="536"
       />
-      <iframe id="frame" width="600" height="536" src="https://supermario-game.com/fullscreen"frameborder="0" allow="gamepad *;"></iframe>
-
+      <iframe
+        id="frame"
+        width="600"
+        height="536"
+        src="https://supermario-game.com/fullscreen"
+        frameborder="0"
+        allow="gamepad *;"
+      ></iframe>
     </div>
 
     <script>

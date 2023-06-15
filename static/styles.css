@@ -83,3 +83,17 @@ html {
 .mirrored {
     transform: scaleX(-1);
 }
+
+
+#faq-modal {
+    /* border-width:2px;
+    
+    border-style: solid; */
+    border:none;
+    border-radius:1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index:10;
+    width: 50%;
+    max-height:70dvh;
+    overflow-y:auto;
+}
