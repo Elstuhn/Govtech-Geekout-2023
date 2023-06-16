@@ -1,3 +1,4 @@
+#remember to create a virtual environment
 opencv==4.2.0
 tensorflow>=1.15.2
 numpy==1.18.2
