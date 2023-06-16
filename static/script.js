@@ -10,7 +10,11 @@ window.addEventListener('DOMContentLoaded', () => {
         console.log("clicked");
         faqModal.toggleAttribute('open');
     })
+
+    
     loginButton.addEventListener("click", () => {
-        singpassModal.toggleAttribute("open");
+        console.log("clicked");
+        singpassModal.classList.toggle("show");
+
     })
 })
