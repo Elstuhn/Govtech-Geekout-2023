@@ -97,3 +97,14 @@ html {
     max-height:70dvh;
     overflow-y:auto;
 }
+
+#singpass-modal {
+    background-image: url("http://127.0.0.1:5000/static/singpassLogin.png");
+    border:none;
+    border-radius:1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index:10;
+    width: 40rem;
+    height:70rem;
+    object-fit: cover;
+}
