@@ -7,8 +7,9 @@ A platform that uses hand tracking technology to let anyone play games using the
 This cures/prevents arthritis and carpal tunnel syndrome in a fun and inexpensive way
 
 
-#Getting Started
-Start with creating a VENV, and pip install requirements.txt
-
-#Running Code
-Navigate to Mario.py, and run it. Thats it
+# Getting Started
+1. Create a VENV
+2. cd into the folder
+3. pip install the requirements.txt file using `pip install requirements.txt -r`
+4. run Mario.py
+5. Open the localhost link given
