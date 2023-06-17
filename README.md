@@ -3,6 +3,7 @@ Govtech geekout 2023 hackathon repo
 
 # About
 A platform that uses hand tracking technology to let anyone play games using their hands by moving their hands in a specific way.
+
 This cures/prevents arthritis and carpal tunnel syndrome in a fun and inexpensive way
 
 
